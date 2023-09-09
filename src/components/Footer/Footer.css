@@ -1,7 +1,7 @@
 footer {
     width: 100%;
     padding: 10px 50px;
-    background-color: #50b484;
+    background-color: #161616;
 }
 
 .links {
@@ -20,8 +20,11 @@ li {
     margin: 0px 20px;
 }
 
-a {
+li a {
     color: #000000;
+    padding: 5px 10px;
+    background-color: #fff;
+    border-radius: 50%;
 }
 
 .copyright {
@@ -29,4 +32,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+
+    color: #50b484;
 }
