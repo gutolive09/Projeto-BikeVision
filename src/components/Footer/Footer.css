@@ -1,11 +1,27 @@
 footer {
-    padding: 20px 0px;
+    width: 100%;
+    padding: 10px 50px;
     background-color: #50b484;
 }
 
 .links {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.links div {
+    width: 50%;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    margin: 0px 20px;
+}
+
+a {
+    color: #000000;
 }
 
 .copyright {

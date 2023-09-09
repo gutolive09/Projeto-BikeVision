@@ -6,6 +6,7 @@ import {
   faXTwitter,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
+import { faCopyright } from "@fortawesome/free-regular-svg-icons";
 import "./Footer.css";
 
 export default function Footer() {
@@ -35,7 +36,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="copyright">
-          <small>Direitos reservados - BikeVision 2023</small>
+          <small>Direitos reservados - <FontAwesomeIcon icon={faCopyright} /> BikeVision 2023</small>
         </div>
       </footer>
     </>
