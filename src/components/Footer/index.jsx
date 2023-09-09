@@ -1,0 +1,43 @@
+import React from "react";
+import NavMenu from "../NavMenu";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faXTwitter,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons";
+import "./Footer.css";
+
+export default function Footer() {
+  return (
+    <>
+      <footer>
+        <div className="links">
+          <NavMenu direction={"column"} fontSize={20} />
+          <div>
+            <ul>
+              <li>
+                <a href="">
+                  <FontAwesomeIcon icon={faFacebook} />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <FontAwesomeIcon icon={faXTwitter} />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <FontAwesomeIcon icon={faGithub} />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="copyright">
+          <small>Direitos reservados - BikeVision 2023</small>
+        </div>
+      </footer>
+    </>
+  );
+}

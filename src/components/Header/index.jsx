@@ -10,7 +10,7 @@ export default function Header() {
             <div>
                 <img src={Logo} alt="Logo da BikeVision" />
             </div>
-            <NavMenu/>
+            <NavMenu direction={"row"}/>
         </header>
     </>
   )

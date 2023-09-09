@@ -1,0 +1,16 @@
+footer {
+    padding: 20px 0px;
+    background-color: #50b484;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.copyright {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
