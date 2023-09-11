@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import bikeImg from '../../assets/bike_banner.jpg'
 import bikeImg2 from '../../assets/bike_banner_2.jpg'
+import bikeImg3 from '../../assets/bike_banner_3.jpg'
 import "./Carousel.css"
 
 function ControlledCarousel() {
@@ -14,13 +14,6 @@ function ControlledCarousel() {
   return (
     <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
-        <img src={bikeImg} alt="" />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
         <img src={bikeImg2} alt="" />
         <Carousel.Caption>
           <h3>Second slide label</h3>
@@ -28,11 +21,11 @@ function ControlledCarousel() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img src={bikeImg} alt="" />
+        <img src={bikeImg3} alt="" />
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Rápido e Prático</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Gaste menos tempo com o processo e mais com o que realmente importa.
           </p>
         </Carousel.Caption>
       </Carousel.Item>
