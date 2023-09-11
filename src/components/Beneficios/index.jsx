@@ -1,10 +1,10 @@
-// import React from 'react'
+import "./Beneficios.css"
 
 export default function Beneficios() {
   return (
     <>
       <section>
-        <div>
+        <div className="beneficios">
           <h2>Beneficios</h2>
           <div className="beneficios-container">
             <div className="beneficios-card">

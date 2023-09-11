@@ -1,0 +1,20 @@
+.beneficios{
+    margin-top: 50px;
+}
+
+.beneficios h2{
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+
+.beneficios-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.beneficios-card {
+    width: 30%;
+
+    text-align: center;
+}
