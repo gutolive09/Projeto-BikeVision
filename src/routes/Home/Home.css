@@ -1,7 +1,32 @@
-main {
-    padding: 30px 5%;
+h1 {
+    text-align: center;
 }
 
-h1 {
+.desc{
+    margin: 30px 50px;
+    position: relative;
+}
+.desc hr{
+    opacity: 1;
+    border: 5px solid #000;
+    border-radius: 5px;
+}
+
+.desc .bike {
+    position: absolute;
+    right: 50px;
+    top: 4px;
+
+    font-size: 80px;
+    color: #000;
+}
+
+.desc h2{
+    margin: 20px 0px;
+    font-size: 40px;
+}
+
+.desc p{
+    font-size: 20px;
     text-align: center;
 }
