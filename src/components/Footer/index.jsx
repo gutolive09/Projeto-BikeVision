@@ -15,7 +15,7 @@ export default function Footer() {
       <footer>
         <div className="links">
           <NavMenu direction={"column"} fontSize={20} />
-          <div>
+          <div className="links-img">
             <ul>
               <li>
                 <a href="">

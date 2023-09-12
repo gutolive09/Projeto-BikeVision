@@ -7,8 +7,8 @@ export default function NavMenu(props) {
     <>
       <nav>
         <ul style={{ flexDirection: props.direction }}>
-          <li>
-            <Link>
+          <li >
+            <Link to={"/"} style={{textDecoration: "none"}}>
               <p className="item" style={{ fontSize: props.fontSize }}>
                 Home
               </p>
@@ -16,7 +16,7 @@ export default function NavMenu(props) {
           </li>
 
           <li style={{ fontSize: props.fontSize }}>
-            <Link>
+            <Link to={"/vistoria"} style={{textDecoration: "none"}}>
               <p className="item" style={{ fontSize: props.fontSize }}>
                 Vistoria
               </p>
@@ -24,7 +24,7 @@ export default function NavMenu(props) {
           </li>
 
           <li style={{ fontSize: props.fontSize }}>
-            <Link>
+            <Link to={"/sobrenos"} style={{textDecoration: "none"}}>
               <p className="item" style={{ fontSize: props.fontSize }}>
                 Sobre nós
               </p>
