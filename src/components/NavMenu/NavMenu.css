@@ -8,7 +8,11 @@ ul {
     align-items: center;
 }
 
-li {
+a {
+    text-decoration: none;
+}
+
+.item {
     font-size: 35px;
     color: #50b484;
 }
