@@ -18,7 +18,7 @@ function ControlledCarousel() {
         <Carousel.Caption>
           <h3>Second slide label</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
+        </Carousel.Caption> 
       </Carousel.Item>
       <Carousel.Item>
         <img src={bikeImg3} alt="" />
