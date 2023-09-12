@@ -1,8 +1,8 @@
-import { useState } from 'react';
-import Carousel from 'react-bootstrap/Carousel';
-import bikeImg2 from '../../assets/bike_banner_2.jpg'
-import bikeImg3 from '../../assets/bike_banner_3.jpg'
-import "./Carousel.css"
+import { useState } from "react";
+import Carousel from "react-bootstrap/Carousel";
+import bikeImg2 from "../../assets/bike_banner_2.jpg";
+import bikeImg3 from "../../assets/bike_banner_3.jpg";
+import "./Carousel.css";
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
@@ -16,16 +16,18 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img src={bikeImg2} alt="" />
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption> 
+          <h3>Eficiência</h3>
+          <p>
+            Posicione o seu negócio no futuro com processos mais eficientes.
+          </p>
+        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img src={bikeImg3} alt="" />
         <Carousel.Caption>
           <h3>Rápido e Prático</h3>
           <p>
-            Gaste menos tempo com o processo e mais com o que realmente importa.
+            Praticidade maxima para o cliente e agilidade para a seguradora.
           </p>
         </Carousel.Caption>
       </Carousel.Item>

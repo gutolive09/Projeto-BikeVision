@@ -2,6 +2,7 @@ import "./Home.css";
 import Beneficios from "../../components/Beneficios";
 import Banner from "../../components/Banner";
 import {BsBicycle} from 'react-icons/bs'
+import {AiOutlineMail} from 'react-icons/ai'
 
 export default function Home() {
   return (
@@ -18,6 +19,9 @@ export default function Home() {
           </p>
         </section>
         <Beneficios />
+        <section className="contato">
+        <AiOutlineMail/>
+        </section>
       </main>
     </>
   );
