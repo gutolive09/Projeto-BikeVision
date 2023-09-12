@@ -14,7 +14,7 @@ export default function Home() {
           <hr/>
           <p>
             Atualmente é necessario a presença de uma pessoa para realizar o processo de vistoria de bicicletas, o que deixa o processo custoso para a seguradora e inconveniente para o cliente.
-            É por isso que a BikeVision surgiu, para automatizar o processo e aprimorar a experiência da seguradora e do cliente.
+            É por isso que a BikeVision surgiu, para automatizar o processo e aprimorar a experiência da seguradora e do cliente com uma solução totalente em web, sem necessidade de uso de API externa ou de BackEnd complexo, ornando o processo mais rapido e fornecendo feedback para o usuario em tempo real.
           </p>
         </section>
         <Beneficios />
