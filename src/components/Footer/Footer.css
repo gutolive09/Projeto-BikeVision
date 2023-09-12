@@ -16,9 +16,11 @@ footer {
     justify-content: flex-end;
 }
 
-li {
-    margin: 0px 20px;
+.links-img ul {
+    display: flex;
+    gap: 30px;
 }
+
 
 .links-img a {
     color: #000000;
@@ -34,4 +36,12 @@ li {
     align-items: flex-end;
 
     color: #50b484;
+}
+
+@media(max-width: 520px){
+    .links {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }

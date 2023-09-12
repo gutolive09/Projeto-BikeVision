@@ -79,3 +79,34 @@ button {
     -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
 }
+
+@media(max-width: 960px){
+    .desc h2{
+        margin-bottom: 50px;
+    }
+
+    .desc .bike{
+        top: 35px;
+    }
+}
+
+@media(max-width: 835px){
+    .desc .bike{
+        top: 85px;
+    }
+}
+
+@media(max-width: 470px){
+    .desc .bike{
+        top: 130px;
+    }
+
+    .teste{
+        text-align: center;
+        margin: 10px;
+    }
+
+    .contato-texto{
+        text-align: center;
+    }
+}

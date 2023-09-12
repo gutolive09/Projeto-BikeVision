@@ -27,7 +27,7 @@ export default function Home() {
         </section>
         <Beneficios />
         <section className="teste">
-          <h3>Faça a sua vistoria !</h3>
+          <h3>Faça a sua vistoria!</h3>
           <Link to={"/vistoria"}>
             <button>Vistoria</button>
           </Link>

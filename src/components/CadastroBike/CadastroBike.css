@@ -27,3 +27,9 @@
     padding: 3px 10px;
     border-radius: 25px;
 }
+
+@media(max-width: 850px){
+    .form-cadastro{
+        margin: 50px 0px;
+    }
+}
