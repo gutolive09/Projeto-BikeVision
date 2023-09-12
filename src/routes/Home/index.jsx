@@ -3,6 +3,7 @@ import Beneficios from "../../components/Beneficios";
 import Banner from "../../components/Banner";
 import { BsBicycle } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -25,6 +26,12 @@ export default function Home() {
           </p>
         </section>
         <Beneficios />
+        <section className="teste">
+          <h3>Faça a sua vistoria !</h3>
+          <Link to={"/vistoria"}>
+            <button>Vistoria</button>
+          </Link>
+        </section>
         <section className="contato">
           <AiOutlineMail className="mail" />
           <div className="contato-texto">

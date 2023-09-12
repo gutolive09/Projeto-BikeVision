@@ -31,6 +31,20 @@ h1 {
     text-align: center;
 }
 
+.teste {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    margin-bottom: 50px;
+}
+
+.teste h3 {
+    font-size: 50px;
+}
+
 .contato{
     display: flex;
     justify-content: center;
@@ -49,7 +63,11 @@ h1 {
     align-items: center;
 }
 
-.contato-texto button {
+.contato-texto p {
+    font-size: 20px;
+}
+
+button {
     color: #000;
     background-color: #50b484;
     font-weight: 700;
