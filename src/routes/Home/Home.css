@@ -30,3 +30,34 @@ h1 {
     font-size: 20px;
     text-align: center;
 }
+
+.contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.mail {
+    font-size: 300px;
+}
+
+.contato-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato-texto button {
+    color: #000;
+    background-color: #50b484;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 25px;
+    border: none;
+
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
